@@ -47,7 +47,6 @@ public class Mago extends Personaje {
             setArm(getArm() + 2);
         } else setArm(getArm() + 1);
     }
-
     public void subirPv() {
         int n = (int) (Math.random() * 100) + 1;
         if (n >= 75) {
@@ -59,11 +58,11 @@ public class Mago extends Personaje {
         if (n >= 20) {
             setRes(getRes() + 1);
         }
-
+    }
         public void lanzarConjuro(String conjuro){
             switch (conjuro.toLowerCase()) {
                 case "bola de fuego":
-
+                    //Variable con la cantidad de daño y los puntos de magia (se calcula) daño = mag * 0.7;
                     break;
                 case "escudo arcano":
 

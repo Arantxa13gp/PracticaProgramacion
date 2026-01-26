@@ -16,7 +16,6 @@ public class Monstruo extends Personaje {
         switch (raza.toLowerCase()){
             case "bsetia":
 
-
                 break;
             case "no-muerto":
                 break;
