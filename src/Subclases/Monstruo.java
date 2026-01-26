@@ -14,7 +14,8 @@ public class Monstruo extends Personaje {
 
     public String tipoMostruo(String raza){
         switch (raza.toLowerCase()){
-            case "bsetia":
+            case "bestia":
+
 
                 break;
             case "no-muerto":

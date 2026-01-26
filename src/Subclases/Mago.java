@@ -71,9 +71,7 @@ public class Mago extends Personaje {
 
                     break;
                 case "presteza mental":
-
                     break;
             }
         }
     }
-}
