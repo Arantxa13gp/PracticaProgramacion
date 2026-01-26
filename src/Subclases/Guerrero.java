@@ -30,6 +30,9 @@ public class Guerrero extends Personaje {
        setVel(getVel());
        setRes(getRes());
     }
+
+
+    //Hola
     public void subirAtq(){
         int n = (int)(Math.random() * 100) +1;
         if (n >= 80){
