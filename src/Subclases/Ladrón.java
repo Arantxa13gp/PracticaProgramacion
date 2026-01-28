@@ -23,7 +23,7 @@ public class Ladrón extends Personaje {
 
     public void subirAtq(){
         int n = (int)(Math.random() * 100) +1;
-        if (n >= 40){ //Probabilidad del 60%
+        if (n >= 40){
             setAtq(getAtq() +2);
         }else setAtq(getAtq()+1);
     }
@@ -41,7 +41,7 @@ public class Ladrón extends Personaje {
     }
     public void subirRes(){
         int n = (int)(Math.random() * 100) +1;
-        if (n >= 20){ //Probabilidad del 80%
+        if (n >= 20){
             setRes(getRes() +2);
         }
     }
@@ -53,7 +53,6 @@ public class Ladrón extends Personaje {
     }
 
     public void robar(){
-        //Con el metodo atacar
     }
 
     public String toString(){

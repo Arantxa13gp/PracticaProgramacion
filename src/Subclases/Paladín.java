@@ -76,7 +76,7 @@ public class Paladín extends Creyente{
     }
     
     public String toString(){
-        return super.toString() + "y está usando la plegaria ";
+        return super.toString();
     }
 
 }

@@ -59,6 +59,12 @@ public class Mago extends Personaje {
             setRes(getRes() + 1);
         }
     }
+    public void subirVel(){
+        int n = (int)(Math.random() * 100) +1;
+        if (n >= 50){
+            setVel(getVel()+1);
+        }
+    }
         public void lanzarConjuro(String conjuro){
             switch (conjuro.toLowerCase()) {
                 case "bola de fuego":
