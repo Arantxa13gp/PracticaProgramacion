@@ -68,13 +68,14 @@ public class Mago extends Personaje {
         public void lanzarConjuro(String conjuro){
             switch (conjuro.toLowerCase()) {
                 case "bola de fuego":
-                    //Variable con la cantidad de daño y los puntos de magia (se calcula) daño = mag * 0.7;
+                    setAtq((int) (getAtq()*0.7));
                     break;
                 case "escudo arcano":
-
+                    setArm((int) (getArm()*0.5));
+                    setRes((int) (getRes()*0.5));
                     break;
                 case "céfiro":
-
+                    setAtq((int) (getAtq()*0.3));
                     break;
                 case "presteza mental":
                     break;

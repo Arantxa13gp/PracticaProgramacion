@@ -61,17 +61,21 @@ public class Clérigo extends Creyente{
     public String plegaria(String milagros){
         switch (milagros.toLowerCase()){
             case "sanación":
-
+                setPv((int)(getPv()*0.7));
                 break;
             case "rezo sagrado":
-
+                setPv((int)(getPv()*0.35));
                 break;
             case "cólera divina":
-
+                setAtq((int)(getAtq()*0.55));
                 break;
             default:
                 milagros = "";
         }
         return milagros;
+    }
+
+    public String toString(){
+        return super.toString() + " está usando la plegaria" + plegaria("");
     }
 }

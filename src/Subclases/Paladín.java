@@ -62,12 +62,14 @@ public class Paladín extends Creyente{
     public String plegaria(String milagros){
         switch (milagros.toLowerCase()){
             case "imbuir arma":
-
+                setAtq((int) (getAtq()*0.8));
                 break;
             case "baluarte de fe":
-
+                setArm((int) (getArm()*0.3));
                 break;
             case "fogonazo sagrado":
+                setVel((int) (getVel()/0.4));
+                setRes((int) (getRes()/0.4));
                 break;
             default:
                 milagros = "";
