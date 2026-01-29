@@ -59,7 +59,6 @@ public class Cazador extends Personaje {
         public String tipoMascota(String raza){
             switch (raza.toLowerCase()){
                 case "cánido":
-
                     subirNivel();{
                     setNivel(getNivel()+1);
                     setAtq(getAtq());
@@ -98,11 +97,86 @@ public class Cazador extends Personaje {
                         setVel(getVel()+1);
                     }
                 }
-
                     break;
                 case "felino":
+                    subirNivel();{
+                    setNivel(getNivel()+1);
+                    setAtq(getAtq());
+                    setPv(getPv());
+                    setArm(getArm());
+                    setVel(getVel());
+                    setRes(getRes());
+                }
+                subirAtq();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 70){
+                        setAtq(getAtq() +1);
+                    }
+                }
+                subirArm();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 85){
+                        setArm(getArm() +1);
+                    }
+                }
+                subirPv();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 85){
+                        setPv(getPv()+1);
+                    }
+                }
+                subirRes();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 85){
+                        setRes(getRes() +1);
+                    }
+                }
+                subirVel();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 70){
+                        setVel(getVel()+1);
+                    }
+                }
                     break;
                 case "rapaz":
+                    subirNivel();{
+                    setNivel(getNivel()+1);
+                    setAtq(getAtq());
+                    setPv(getPv());
+                    setArm(getArm());
+                    setVel(getVel());
+                    setRes(getRes());
+                }
+                subirAtq();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 85){
+                        setAtq(getAtq() +1);
+                    }
+                }
+                subirArm();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 95){
+                        setArm(getArm() +1);
+                    }
+                }
+                subirPv();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 95){
+                        setPv(getPv()+1);
+                    }
+                }
+                subirRes();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 75){
+                        setRes(getRes() +1);
+                    }
+                }
+                subirVel();{
+                    int n = (int)(Math.random() * 100) +1;
+                    if (n >= 65){
+                        setVel(getVel()+1);
+                    }
+                }
                     break;
                 default:
                     raza = "";
@@ -111,5 +185,8 @@ public class Cazador extends Personaje {
         }
     }
 
+    public String toString(){
+        return super.toString() + " y tiene un compañero " + mascota;
+    }
 
 }

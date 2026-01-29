@@ -199,7 +199,7 @@ public class Personaje {
     }
 
     public String toString(){
-        return "El personaje" + nombre + "tiene unas estadśiticas de " + pv + " puntos de vida" + atq + " puntos de ataque" + arm + " puntos de armadura" + "se encuentra el nivel " + nivel;
+        return "El personaje" + nombre + "tiene unas estadśiticas de " + pv + " puntos de vida" + atq + " puntos de ataque" + arm + " puntos de armadura " +vel+ "puntos de velocidad " + res + " puntos de resistencia mágica" + "se encuentra el nivel " + nivel;
     }
 
     public Personaje clon (){
