@@ -226,23 +226,10 @@ public class Personaje {
         else return true;
     }
 
-    public String realizarTurno(String turno){ //Hacer las acciones del switch
-        switch (turno.toLowerCase()){
-            case "atacar":
-                break;
-            case "acción especial":
-                break;
-            case "defender":
-                break;
-            case "pasa turno":
-                break;
-            default:
-                return turno = "";
-        }
-        return turno;
+    public void defender(int daño, String tipoDaño){
+
     }
 
-    //Hacer método defender y atacar
 
 
 }

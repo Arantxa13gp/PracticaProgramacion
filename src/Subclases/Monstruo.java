@@ -120,7 +120,7 @@ public class Monstruo extends Personaje {
             }
                 subirAtq();{
                 int n = (int)(Math.random() * 100) +1;
-                if (n >= 0){
+                if (n >= 50){
                     setAtq(getAtq()+1);
                 }
             }
@@ -132,10 +132,9 @@ public class Monstruo extends Personaje {
             }
             subirPv();{
                 int n = (int)(Math.random() * 100) +1;
-                setPv(getPv()+1);
                 if (n >= 50){
-                    setPv((int)(getPv()*1.05));
-                }
+                    setPv((int)(getPv()+2));
+                }else setPv((int)(getPv()+3));
             }
             subirRes();{
                 int n = (int)(Math.random() * 100) +1;
