@@ -63,6 +63,6 @@ public class Guerrero extends Personaje {
     }
 
     public String toString(){
-        return super.toString() + "";
+        return super.toString();
     }
 }

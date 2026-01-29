@@ -65,20 +65,24 @@ public class Mago extends Personaje {
             setVel(getVel()+1);
         }
     }
-        public void lanzarConjuro(String conjuro){
+        public void lanzarConjuro(String conjuro) {
             switch (conjuro.toLowerCase()) {
                 case "bola de fuego":
-                    setAtq((int) (getAtq()*0.7));
+                    setAtq((int) (getAtq() * 0.7));
                     break;
                 case "escudo arcano":
-                    setArm((int) (getArm()*0.5));
-                    setRes((int) (getRes()*0.5));
+                    setArm((int) (getArm() * 0.5));
+                    setRes((int) (getRes() * 0.5));
                     break;
                 case "céfiro":
-                    setAtq((int) (getAtq()*0.3));
+                    setAtq((int) (getAtq() * 0.3));
                     break;
                 case "presteza mental":
                     break;
             }
         }
-    }
+
+        public String toString(){
+            return super.toString();
+        }
+}
