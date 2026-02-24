@@ -1,13 +1,11 @@
-package Subclases;
+package Personajes.Subclases;
 
 /**
  * Clase Mago, representa una especialización de Personaje centrada en el uso de magia y conjuros.
  * @author Arantxa González Pérez
  * @version v1.0
  */
-import Characters.Personaje;
-
-import java.util.Random;
+import Personajes.Personaje;
 
 public class Mago extends Personaje {
 

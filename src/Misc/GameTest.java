@@ -1,6 +1,6 @@
 package Misc;
 
-import Characters.Personaje;
+import Personajes.Personaje;
 
 public class GameTest {
 

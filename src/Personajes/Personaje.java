@@ -1,4 +1,4 @@
-package Characters;
+package Personajes;
 
 /**
  * Clase Personaje, representa a un personaje con un nombre, una raza y estadísticas de ataque, armadura, vida, resistencia mágica, velocidad
@@ -339,7 +339,7 @@ public class Personaje {
      * Método que crea un clon exacto del personaje.
      * @return Una nueva instancia de Personaje idéntica a la actual.
      */
-    public Personaje clon (){
+    public Personaje clone (){
         Personaje clon = new Personaje(this);
         return clon;
     }

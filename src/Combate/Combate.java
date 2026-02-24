@@ -1,6 +1,6 @@
-package Combat;
+package Combate;
 
-import Characters.Personaje;
+import Personajes.Personaje;
 
 public class Combate {
 

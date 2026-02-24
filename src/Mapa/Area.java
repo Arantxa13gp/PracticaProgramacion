@@ -1,4 +1,4 @@
-package GameMap;
+package Mapa;
 
 import java.util.Random;
 

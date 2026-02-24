@@ -1,4 +1,4 @@
-package Subclases;
+package Personajes.Subclases;
 
 public class Paladín extends Creyente{
 

@@ -1,4 +1,4 @@
-package Subclases;
+package Personajes.Subclases;
 
 /**
  * Clase Clérigo, representa una especialización de Creyente que enfoca su poder

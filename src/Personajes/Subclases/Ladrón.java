@@ -1,4 +1,4 @@
-package Subclases;
+package Personajes.Subclases;
 
 /**
  * Clase Ladrón, representa una especialización de Personaje enfocada en la agilidad,
@@ -6,7 +6,7 @@ package Subclases;
  * @author Arantxa González Pérez
  * @version v1.0
  */
-import Characters.Personaje;
+import Personajes.Personaje;
 
 public class Ladrón extends Personaje {
 

@@ -1,4 +1,4 @@
-package Subclases;
+package Personajes.Subclases;
 
 /**
  * Clase Cazador, representa una especialización de Personaje que posee una mascota
@@ -8,7 +8,7 @@ package Subclases;
  * @version v1.0
  */
 
-import Characters.Personaje;
+import Personajes.Personaje;
 
 public class Cazador extends Personaje {
 

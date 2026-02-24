@@ -1,4 +1,4 @@
-package GameMap;
+package Mapa;
 
 public class Trampa {
     private String trampa;

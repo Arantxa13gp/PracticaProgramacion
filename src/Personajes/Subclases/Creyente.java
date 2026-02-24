@@ -1,4 +1,4 @@
-package Subclases;
+package Personajes.Subclases;
 
 /**
  * Clase abstracta Creyente, representa una especialización de Personaje que introduce
@@ -6,7 +6,7 @@ package Subclases;
  * @author Arantxa González Pérez
  * @version v1.0
  */
-import Characters.Personaje;
+import Personajes.Personaje;
 
 public abstract class Creyente extends Personaje {
 
