@@ -34,20 +34,7 @@ public class Monstruo extends Personaje {
     public Monstruo(String nombre, int atq, int arm, int pv, int nivel, int res, int vel, String raza) {
         super(nombre, atq, arm, pv, nivel, res, vel, raza);
     }
-
-    /**
-     * Método que incrementa el nivel del monstruo y actualiza sus estadísticas actuales.
-     * Este método asegura la sincronización del nivel con los atributos base.
-     */
-    public void subirNivel() {
-        setNivel(getNivel() + 1);
-        setAtq(getAtq());
-        setPv(getPv());
-        setArm(getArm());
-        setVel(getVel());
-        setRes(getRes());
-    }
-
+    
     /**
      * Método que define la especialización del monstruo según su raza y aplica una mejora
      * inmediata de estadísticas mediante bloques de probabilidad específicos.
